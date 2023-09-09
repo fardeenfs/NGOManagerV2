@@ -1,4 +1,4 @@
-# NGO Manager (Membership, Expense/Income Tracker, Dues Billing, Financial Reports)
+# NGO Manager V2 (Membership, Expense/Income Tracker, Dues Billing, Financial Reports)
 
 <h3>Technologies Used</h3>
 This is a ready-to-use web app built on Django/Python in the Backend and uses NextJS in the frontend. Most of the backend functionality have been complete (refer to the 'Under Development' subsection to see what's left). The frontend is still under development. The database software used for this purpose is PostgreSQL. 
