@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+    <link rel="stylesheet" href={% static "bootstrap.css" %}>
+
+        <form action="/new-due/" method="post">
+    {% csrf_token %}
+           {{ formdue.as_ul }}
+{#            {{formdue.due_id}}#}
+{#            {{formdue.due_type }}#}
+{#            {{formdue.due_amount}}#}
+{#            {{formdue.due_fineamt}}#}
+{#            {{formdue.is_head}}#}
+{#            {{formdue.is_pension}}#}
+{#            {{formdue.is_nri}}#}
+{#            {{formdue.is_govt}}#}
+{#            {{formdue.is_male}}#}
+            </ul>
+    <input type="submit" value="Submit">
+</form>
+
+{% endblock %}
